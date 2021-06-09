@@ -15,6 +15,20 @@ cursor inside the folder:
 
 `git status`
 
-`git commit -a -m "change Readme update"`
+`git add file-name`
+
+`git commit -a -m "this is just a sample message"`
+
+Before pushing your changes, check that you are up-to-date with the repository using one of the following commands:
+
+- `git pull` : pulls all the changes from the remote repository and automatically tries to merge them in the local repository
+- `git fetch` : fetches all the changes from the remote repository, but will not try to merge them in the local repository
+
+If you use `git fetch` then you are supposed to manually merge the remote changes with your local repository by launching:
+
+`git merge origin/branch-name` (in our case branch-name is 'main')
 
 `git push origin branch-name`
+
+
+`gitk --all`
