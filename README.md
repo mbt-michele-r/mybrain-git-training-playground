@@ -13,4 +13,8 @@ cursor inside the folder:
 
 `cd my-project-folder`
 
+`git status`
 
+`git commit -a -m "change Readme update"`
+
+`git push origin branch-name`
